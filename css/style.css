@@ -1,0 +1,102 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+.container {
+	width: 83.333333%;
+	margin: 0 auto;
+}
+
+
+.header {
+	padding: 5% 0;
+	position: relative;
+	background-image: url(../images/desktop/image-hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	height: 600px;
+
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin: 3px 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.logo {
+	font-size: 2rem;
+	font-family: 'Alata', sans-serif;
+}
+
+.content__wrapper {
+	flex: 1 0 auto;
+}
+
+.hero__box {
+	border: 3px solid #fff;
+	padding: 0 2rem 1rem;
+	margin-top: 5rem;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: left;
+}
+
+.footer {
+	width: 100%;
+	flex-shrink: 0;
+	padding: 3% 0;
+	background-color: #222;
+	color: #fff;
+}
+
+p {
+	font-family: 'Alata', sans-serif;
+}
